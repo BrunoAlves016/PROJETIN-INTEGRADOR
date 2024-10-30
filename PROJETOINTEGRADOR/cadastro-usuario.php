@@ -1,13 +1,12 @@
 <?php
 include("conecta.php");
-include('topo.php');
+// include('topo.php');
 
 if($_SERVER['REQUEST_METHOD'] =='POST'){
     $login = $_POST['txtlogin'];
     $senha = $_POST['txtsenha'];
     $email = $_POST['txtemail'];
-    $tempero = md5($login . rand()); //CRIA UM VALOR ALEATÓRIO PARA A CRIPTOGRAFIA
-    $senha = md5($tempero . $senha); //CRIPTOGRAFANDO A SENHA
+    $senha = md5( $senha); //CRIPTOGRAFANDO A SENHA
     //VALIDAR SE O USUÁRIO A CADASTRAR  EXISTE
     $sql = "SELECT COUNT(u_id) FROM tb_usuarios WHERE u_login = '$login'  OR u_email = '$email' ";
     
@@ -41,7 +40,7 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 </head>
 <body>
 <div class="container-global">
-        <form class="formulario" action="usuario-cadastro.php" method="post">
+        <form class="formulario" action="cadastro-usuario.php" method="post">
             <label>LOGIN</label>
             <input type="text" name="txtlogin" placeholder="DIGITE SEU LOGIN" required>
             <br>
