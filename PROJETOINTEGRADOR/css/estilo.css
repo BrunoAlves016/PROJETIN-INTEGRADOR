@@ -1,0 +1,127 @@
+/* Corpo da página */
+body {
+    background-color: #15679e;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cabeçalho e Menu */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    background-color: #ffffff;
+    color: #15679e;
+}
+
+/* Ícones Sociais */
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.fb:hover,
+.ins:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+/* Título da Página */
+.subtitulo h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Curely', sans-serif;
+    margin-top: 20px;
+}
+
+/* Galeria de Puzzles */
+.container-puzzles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.puzzlebox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.puzzlebox:hover {
+    transform: scale(1.05);
+}
+
+.puzzle-imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 0;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+/* Animação de Fade */
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: 'SuperKinds';
+    src: url('fonts/Super Kinds.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

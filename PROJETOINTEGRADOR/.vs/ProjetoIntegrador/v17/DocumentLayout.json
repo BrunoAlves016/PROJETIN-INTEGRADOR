@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\bruno.calves4\\source\\repos\\projetointegrador\\projetointegrador\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\projetointegrador\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\projetointegrador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|c:\\users\\bruno.calves4\\source\\repos\\projetointegrador\\projetointegrador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460354DE-33FB-41E3-BACB-4F94E84BD572}|ProjetoIntegrador\\ProjetoIntegrador.csproj|solutionrelative:projetointegrador\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Form1.cs",
+              "ToolTip": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\Form1.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\Form1.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAowIwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:36:20.061Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\Form1.cs",
+              "ToolTip": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\Form1.cs [Projeto]",
+              "RelativeToolTip": "ProjetoIntegrador\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:36:18.076Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\FrmLogin.cs",
+              "RelativeToolTip": "ProjetoIntegrador\\FrmLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:09:17.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmLogin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "ProjetoIntegrador\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\bruno.calves4\\source\\repos\\ProjetoIntegrador\\ProjetoIntegrador\\FrmLogin.cs [Projeto]",
+              "RelativeToolTip": "ProjetoIntegrador\\FrmLogin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:48:49.085Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
