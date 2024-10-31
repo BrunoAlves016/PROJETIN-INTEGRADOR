@@ -21,5 +21,32 @@
             <a href="https://www.instagram.com" class="ins"><img src="icons/instagram.jpg" width="30px" height="30px"></a>
         </div>
     </div>
+    <div class="subtitulo">
+        <h1>PUZZLES MERAMENTE FÁCEIS QUE VIRÃO NA PRÓXIMA ATUALIZAÇÃO</h1>
+    </div>
+
+
+    <div class="container-puzzles">
+        <div class="puzzlebox">
+            <a href="puzzle-facil.php"><img src="img/puzzleIzi.jpg" alt="Puzzle Fácil" class="puzzle-imagem" height="300px" width="300px"></a>
+            <div class="overlay">
+                Puzzle Fácil
+            </div>
+        </div>
+
+        <div class="puzzlebox">
+            <a href="puzzle-medio.php"><img src="img/fotoefeitos.com_.jpg" alt="Puzzle Médio" class="puzzle-imagem" height="300px" width="300"></a>
+            <div class="overlay">
+                Puzzle Médio
+            </div>
+        </div>
+
+        <div class="puzzlebox">
+            <a href="puzzle-dificil.php"><img src="img/hard.jpg" alt="Puzzle Difícil" class="puzzle-imagem" height="300px" width="300"></a>
+            <div class="overlay">
+                Puzzle Difícil
+            </div>
+        </div>
+    </div>
 </body>
 </html>

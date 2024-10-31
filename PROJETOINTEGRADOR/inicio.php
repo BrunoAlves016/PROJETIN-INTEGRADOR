@@ -26,7 +26,7 @@
     </div>
 
     <div class="subtitulo">
-        <h1>Bem-vindo ao Desafio de Puzzles!</h1>
+        <h1>BEM-VINDOS AO SITE DE PUZZLES IMAGES</h1>
     </div>
 
     <!-- SEÇÃO DE PUZZLES COM IMAGENS -->
