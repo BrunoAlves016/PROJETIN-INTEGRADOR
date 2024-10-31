@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
 
-    <title>PUZZLE IZI</title>
+    <title>PUZZLE MÉDIOS</title>
 </head>
 <body>
 <div class="container">
@@ -22,29 +22,29 @@
         </div>
     </div>
     <div class="subtitulo">
-        <h1>PUZZLES MERAMENTE FÁCEIS QUE VIRÃO NA PRÓXIMA ATUALIZAÇÃO</h1>
+        <h1>PUZZLES MÉDIOS QUE TALVEZ PRECISAM DE CHATGPT</h1>
     </div>
 
 
     <div class="container-puzzles">
-        <div class="puzzlebox">
-            <a href="puzzle-facil.php"><img src="img/puzzleIzi.jpg" alt="Puzzle Fácil" class="puzzle-imagem" height="300px" width="300px"></a>
+    <div class="puzzlebox">
+            <img src="img/frutapuzzle.png" alt="Puzzle Fácil" class="puzzle-imagem" height="300px" width="300px">
             <div class="overlay">
-                Puzzle Fácil
+                PUZZLE DE FRUIT
             </div>
         </div>
 
         <div class="puzzlebox">
-            <a href="puzzle-medio.php"><img src="img/fotoefeitos.com_.jpg" alt="Puzzle Médio" class="puzzle-imagem" height="300px" width="300"></a>
+            <a href="download.php"><img src="img/fotoefeitos.com_.jpg" alt="Puzzle Médio" class="puzzle-imagem" height="300px" width="300"></a>
             <div class="overlay">
-                Puzzle Médio
+               PUZZLE DO COELHO
             </div>
         </div>
 
         <div class="puzzlebox">
-            <a href="puzzle-dificil.php"><img src="img/hard.jpg" alt="Puzzle Difícil" class="puzzle-imagem" height="300px" width="300"></a>
+            <img src="img/puzzlecrianca.png" alt="Puzzle Médio" class="puzzle-imagem" height="300px" width="300">
             <div class="overlay">
-                Puzzle Difícil
+                PUZZLE DE FILMES 
             </div>
         </div>
     </div>

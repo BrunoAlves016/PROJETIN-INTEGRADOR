@@ -28,23 +28,23 @@
 
     <div class="container-puzzles">
         <div class="puzzlebox">
-            <a href="puzzle-facil.php"><img src="img/puzzleIzi.jpg" alt="Puzzle Fácil" class="puzzle-imagem" height="300px" width="300px"></a>
+            <img src="img/puzzlegeral.png" alt="Puzzle Fácil" class="puzzle-imagem" height="300px" width="300px">
             <div class="overlay">
-                Puzzle Fácil
+                PUZZLE DO CORPO HUMANO
             </div>
         </div>
 
         <div class="puzzlebox">
-            <a href="puzzle-medio.php"><img src="img/fotoefeitos.com_.jpg" alt="Puzzle Médio" class="puzzle-imagem" height="300px" width="300"></a>
+         <img src="img/puzzleanimal.png" alt="Puzzle Fácil" class="puzzle-imagem" height="300px" width="300">
             <div class="overlay">
-                Puzzle Médio
+               PUZZLE DE ANIMAIS
             </div>
         </div>
 
         <div class="puzzlebox">
-            <a href="puzzle-dificil.php"><img src="img/hard.jpg" alt="Puzzle Difícil" class="puzzle-imagem" height="300px" width="300"></a>
+            <img src="img/puzzlefacil.png" alt="Puzzle Difícil" class="puzzle-imagem" height="300px" width="300">
             <div class="overlay">
-                Puzzle Difícil
+                PUZZLE DIVERSOS
             </div>
         </div>
     </div>
