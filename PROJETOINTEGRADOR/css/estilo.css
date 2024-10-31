@@ -59,7 +59,11 @@ body {
     background-color: #000000;
 
 }
+.container-altera{
+    display: flex;
+    background-color: #15679e;
 
+}
 .formulario{
     display: flex;
     justify-content: center;
@@ -104,7 +108,11 @@ body {
     height: auto;
     
 }
-
+td, tr, th{
+    color: #ffffff;
+    border: #fff 2px solid;
+    font-size: 25px;
+}
 
 /* Título da Página */
 .subtitulo h1 {

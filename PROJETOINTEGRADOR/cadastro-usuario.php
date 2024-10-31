@@ -39,6 +39,10 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
     <title>CADASTRO DE USUÁRIO</title>
 </head>
 <body>
+<div class="container-altera">
+        <div class="logo"><a href="inicio.php"><img src="img/perfil.png" width="100px" height="100px"></a></div>
+        
+        </div>
 <div class="container-global">
         <form class="formulario" action="cadastro-usuario.php" method="post">
             <label>LOGIN</label>

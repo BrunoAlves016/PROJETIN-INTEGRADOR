@@ -1,9 +1,9 @@
 <?php
 include('conecta.php');
-include('topo.php');
+// include('topo.php');
 //COLETA O VALOR ID DA URL
 $id = $_GET['id'];
-$sql = "SELECT * FROM tb_usuarios WHERE usu_id = '$id'";
+$sql = "SELECT * FROM tb_usuarios WHERE u_id = '$id'";
 $retorno = mysqli_query($link, $sql);
 
 while ($tbl = mysqli_fetch_array($retorno)) {
@@ -12,7 +12,6 @@ while ($tbl = mysqli_fetch_array($retorno)) {
     $senha = $tbl[3];
     $senha2 = $tbl[3]; //CASO USUARIO NÃO ALTERE A SENHA
     $status = $tbl[4];
-    $tempero = $tbl[5];
 
 }
 
@@ -23,7 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['txtemail'];
     $status = $_POST['status'];
     $senha2 = $_POST['txtsenha2'];
-    $tempero = $_POST['tempero'];
 
     $sql = "UPDATE tb_usuarios SET u_senha = '$senha', u_email = '$email', u_status = '$status' WHERE u_id = $id";
 
@@ -48,11 +46,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 
 <body>
+
+<div class="container-altera">
+        <div class="logo"><a href="inicio.php"><img src="img/perfil.png" width="100px" height="100px"></a></div>
+        
+        </div>
     <div class="container-global">
 
         <form class="formulario" action="cadastro-altera-usu.php" method="post">
             <input type="hidden" name="id" value="<?= $id ?>">
-            <input type="hidden" name="tempero" value="<?= $tempero ?>">
             <input type="hidden" name="txtsenha2" value="<?= $senha2 ?>">
             <label>LOGIN</label>
             <input type="text" name="txtlogin" placeholder="DIGITE SEU LOGIN" value="<?= $login ?>" required>

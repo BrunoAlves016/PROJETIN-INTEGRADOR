@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
 
-    <title>PUZZLE IZI</title>
+    <title>PUZZLE IMPOSSIBLE</title>
 </head>
 <body>
 <div class="container">
@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="subtitulo">
-        <h1>PUZZLES MERAMENTE FÁCEIS QUE VIRÃO NA PRÓXIMA ATUALIZAÇÃO</h1>
+        <h1>PUZZLES MERAMENTE IMPOSSIBLE QUE NEM O DEV CONSEGUIU DESENVOLVER</h1>
     </div>
 
 

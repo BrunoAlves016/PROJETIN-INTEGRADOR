@@ -7,7 +7,17 @@ include('conecta.php');
 $sql = "SELECT u_login, u_email, u_status, u_id FROM tb_usuarios WHERE u_status = '1'";
 $retorno = mysqli_query($link, $sql);
 $status = '1';
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $status = $_POST['status'];
 
+    if ($status == 1) {
+        $sql = "SELECT u_login, u_email, u_status, u_id FROM tb_usuarios WHERE u_status = '1'";;
+        $retorno = mysqli_query($link, $sql);
+    } else {
+        $sql = "SELECT u_login, u_email, u_status, u_id FROM tb_usuarios WHERE u_status = '0'";;
+        $retorno = mysqli_query($link, $sql);
+    }
+}
 ?>
 
 
@@ -22,11 +32,17 @@ $status = '1';
 </head>
 
 <body>
-
+<div class="container-altera">
+        <div class="logo"><a href="inicio.php"><img src="img/perfil.png" width="100px" height="100px"></a></div>
+        
+        </div>
     <div class="container-listausuarios">
         <!-- FAZER DEPOIS DO ROLÊ -->
-        <form>
-
+        <form action="lista-usuario.php" method="post">
+            <input type="radio" name="status" value="1" required onclick="submit()" <?= $status == '1' ? "checked" : "" ?>>ATIVOS
+            <br>
+            <input type="radio" name="status" value="0" required onclick="submit()" <?= $status == '0' ? "checked" : "" ?>>INATIVOS
+            <br>
         </form>
         <!-- LISTAR A TABELA DE USUARIOS -->
         <table class="lista">
