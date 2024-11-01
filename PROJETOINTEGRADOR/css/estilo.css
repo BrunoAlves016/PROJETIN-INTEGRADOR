@@ -61,7 +61,7 @@ body {
 }
 .container-altera{
     display: flex;
-    background-color: #15679e;
+    background-color: #000000;
 
 }
 .formulario{
@@ -164,7 +164,10 @@ td, tr, th{
     font-family: 'Segoe UI', Tahoma, sans-serif;
     font-style: italic;
 }
-
+.downloadjogo{
+    justify-content: center;
+    display: flex;
+}
 
 /* Animação de Fade */
 @keyframes fade {
