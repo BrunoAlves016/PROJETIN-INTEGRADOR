@@ -19,9 +19,16 @@
         <h1>FAÇA SEU DOWNLOAD AQUI</h1>
     </div>
     <div class="downloadjogo">
-    <a href="jogo/ProjectLostGuildOF.zip" download="">
+    <a href="jogo/PROJETININTEGRADOR.zip" download="">
       <img src="img/bau.png" alt="W3Schools" width="150" height="140"></a>
   </div>
+    <div class="puzzlebox1">
+            <img src="img/fotoefeitos.com_.jpg" alt="Puzzle Médio" class="puzzle-imagem" height="300px" width="300">
+            <div class="overlay">
+               PUZZLE DO COELHO
+            </div>
+        </div>
+   
 </body>
 </html>
 

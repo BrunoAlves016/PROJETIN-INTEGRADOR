@@ -142,7 +142,19 @@ td, tr, th{
     cursor: pointer;
     transition: transform 0.3s;
 }
-
+.puzzlebox1{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    left: 42%;
+}
 .puzzlebox:hover {
     transform: scale(1.05);
 }
